@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url("../image/bacg.jpg");
+  background-size: 100% 100%;
+  padding-top: 150px;
+  
+}
+.container{
+  width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #F6F6F6;
+  border-radius: 20px;
+}
+.box {
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.box-img {
+}
+.box-img__nike {
+}
+.box-content {
+  width: 450px;
+  padding-top: 60px;
+}
+.box-content__title {
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #4574A7;
+}
+.box-content__heading {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.box-content__icon {
+  font-size: 50px;
+  color: #0066DD;
+}
+.box-content__price {
+  font-size: 50px;
+  color: #0066DD;
+}
+.text {
+  font-size: 25px;
+  line-height: 32px;
+}
+.box-nav {
+  display: flex;
+  justify-content: space-around;
+}
+.box-nav__choose {
+  width: 400px;
+  
+}
+.box-nav__title {
+  text-transform: uppercase;
+  color: #4574A7;
+  margin-bottom: 12px;
+  
+  
+}
+.box-nav__rec {
+  width: 20px;
+  height: 10px;
+  padding: 10px 15px;
+  border: 1px solid #8CAEB6;
+  text-align: center;
+}
+.box-nav__button {
+}
+.box-nav__blue {
+  width: 400px;
+  font-size: 24px;
+  border-radius: 7px;
+  color: #fff;
+  background-color: #0066DD;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  margin-left: 40px;
+}
